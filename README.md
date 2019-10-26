@@ -12,3 +12,9 @@
   ```bash
     git update-ref -d HEAD
   ```
+
+- 展示工作区的冲突文件列表
+
+  ```bash
+    git diff --name-only --diff-filter=U
+  ```
