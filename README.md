@@ -41,3 +41,9 @@
   ```
     git diff -cached
   ```
+
+- 展示工作区、暂存区和本地最近版本的不同
+
+  ```bash
+    git diff HEAD
+  ```
