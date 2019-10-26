@@ -18,3 +18,15 @@
   ```bash
     git diff --name-only --diff-filter=U
   ```
+
+- 展示暂存区和工作区的不同
+
+  ```bash
+    git diff
+  ```
+
+- 展示任意两个 commit 之间的不同
+
+  ```bash
+    git diff <commit-id> <commit-id>
+  ```
