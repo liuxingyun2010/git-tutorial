@@ -4,4 +4,6 @@
   // test
 
   console.log('nnn');
+
+  console.log('xcxx');
 })();

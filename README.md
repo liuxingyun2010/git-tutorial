@@ -1,5 +1,10 @@
 ### git 技巧练习
 
+工作区： 本地 wordspace，暂未 git add
+暂存区：git add
+本地仓库：git commit
+远程仓库：git push
+
 - 回到远程仓库的状态
   如果在暂存区或者本地仓库，更新的文件会被还原掉；工作区中的不会
 
@@ -29,4 +34,10 @@
 
   ```bash
     git diff <commit-id> <commit-id>
+  ```
+
+- 展示暂存区和本地最近版本的不同
+
+  ```
+    git diff -cached
   ```
