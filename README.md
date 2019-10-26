@@ -9,6 +9,6 @@
 
 - 将暂存区的所有改动重新放回到工作区，并且清空所有 commit(慎用)
 
-```bash
-  git update-ref -d HEAD
-```
+  ```bash
+    git update-ref -d HEAD
+  ```
